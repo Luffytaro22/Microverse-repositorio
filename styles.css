@@ -1,0 +1,31 @@
+html{
+    background-color: aquamarine;
+}
+*main{
+    width: min(100%-30px, 840px);
+    margin-inline: auto;
+    margin: 3rem 0;
+    display: flex;
+    position: fixed;
+    
+}
+#title{
+    text-align: center;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+  
+}
+#img-caption{
+    padding: 0 200px;
+    text-align: center;
+}
+img{
+    display: block;
+}
